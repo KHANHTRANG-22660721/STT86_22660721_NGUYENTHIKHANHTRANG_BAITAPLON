@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ĐĂNG NHẬP</title>
+    <link rel="stylesheet" href="Page-6.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="home-icon">
+            <a href="./Page-2.html">
+                <img src="./images/home-icon.png" alt="Trang chủ">
+            </a>
+        </div>
+        <div class="form-container">
+            <div class="button-group" style="margin-top: 30px;">
+                <button id="loginBtn" onclick="showLogin()">Đăng Nhập</button>
+                <button id="registerBtn" onclick="showRegister()">Đăng Ký</button>
+            </div>
+            <form id="loginForm" class="form-content">
+                <h2>Đăng Nhập</h2>
+                <input type="text" placeholder="Tên đăng nhập" required>
+                <input type="password" placeholder="Mật khẩu" required>
+                <button type="submit">Đăng Nhập</button>
+            </form>
+            <form id="registerForm" class="form-content hidden">
+                <h2>Đăng Ký</h2>
+                <input type="text" placeholder="Họ và tên" required>
+                <input type="text" placeholder="Tên đăng nhập" required>
+                <input type="password" placeholder="Mật khẩu" required>
+                <input type="password" placeholder="Nhập lại mật khẩu" required>
+                <button type="submit">Đăng Ký</button>
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,70 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    background: url("https://hifibuys.com/wp-content/uploads/2020/01/headphone-bar-horz.png");
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.home-icon {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.home-icon img {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+.button-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px;
+    width: 48%;
+    background-color: #f94f2f;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #f94f2f;
+}
+
+.form-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-content input {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.hidden {
+    display: none;
+}
